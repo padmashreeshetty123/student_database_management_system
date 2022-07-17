@@ -1,4 +1,5 @@
-<?php $servername='localhost';
+<?php 
+$servername='localhost';
 $username='root';
 $password='padma@123';
 $database='giraffe';
@@ -14,8 +15,6 @@ $gender=$_POST['gender'];
 $dob=$_POST['dateofbirth'];
 $stream=$_POST['stream'];
 if(isset($_POST['submit']))
-
-
 {
 mysqli_query($conn,"insert into student2 values($name,$contact,$email,$gender,$dob,$stream);");
 
@@ -38,12 +37,15 @@ if(isset($_POST['delete_table']))
 $sql = "SELECT * FROM student2";
 $result = mysqli_query($conn, $sql);
 
-if (mysqli_num_rows($result) > 0) {
+if (mysqli_num_rows($result) > 0)
+{
   // output data of each row
   while($row = mysqli_fetch_assoc($result)) {
     "id: " . $row["name"]. " - Name: " . $row["contact"]. " " . $row["email"]. "<br>";
   }
-} else {
+}
+else 
+{
   echo "0 results";
 }
 
