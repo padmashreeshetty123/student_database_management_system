@@ -19,8 +19,7 @@
 
     <h1 class=" bg-[rgb(91,222,26)] text-center text-2xl font-bold  tracking-wide">SCHOOL MANAGEMENT SYSTEM</h1>
     <div class="flex h-[700px]">
-        <div class=" bg-[rgb(68,241,105)] text-center p-[1vw]  ">
-            
+        <div class=" bg-[rgb(68,241,105)] text-center p-[1vw]  "> 
             <form action="index.php" method="post">
               <label for="name"> Name </label><br>
              <input type="text" name="name" id="name"><br>
@@ -45,9 +44,7 @@
             <button class="bg-white max-w-sm" name="delete">Delete Record</button><br><button class="bg-white max-w-sm" name="view">View Record</button><br><button type="reset" class="bg-white max-w-sm" name="reset">Reset Fields</button><br><button class="bg-white max-w-sm" name="delete_table">Delete table</button>
             
                         </form></div>
-                        <div>
-                            
-                        </div>
+                     
 
 </body>
 </html>
