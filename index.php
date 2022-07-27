@@ -14,9 +14,6 @@
     </style>
 </head>
 <body class="font-sans">
-    
-
-
     <h1 class=" bg-[rgb(91,222,26)] text-center text-2xl font-bold  tracking-wide">SCHOOL MANAGEMENT SYSTEM</h1>
     <div class="flex h-[700px]">
         <div class=" bg-[rgb(68,241,105)] text-center p-[1vw]  "> 
