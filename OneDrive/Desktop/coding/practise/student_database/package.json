@@ -1,0 +1,19 @@
+{
+  "name": "student_database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tailwindcss build tailwindstyle.css -o src/style.css",
+    "server": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "vite": "^2.9.8"
+  }
+}
