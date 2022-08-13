@@ -84,7 +84,6 @@
 <?php
 $servername='localhost';
 $username='root';
-$password="padma@123";
 $database='giraffe';
 $conn=mysqli_connect($servername,$username,$password,$database);
 $rows=mysqli_query($conn,"select * from student2;");
