@@ -3,7 +3,7 @@
 $servername='localhost';
 $username='root';
 $database='giraffe';
-$conn=mysqli_connect($servername,$username,"padma@123",$database);
+$conn=mysqli_connect($servername,$username,env('password'),$database);
 if(!$conn)
 {
     die("database connections error".mysqli_connect_error());
